@@ -1,12 +1,11 @@
-# awx-vmware-python
+Custom python script for VMware dynamic inventory. Created for collect VMware information for AWX inventories.
 
-* Custom python script for VMware dynamic inventory
+Created by Lucas Afonso Kremer
 
-## Last Review
+https://www.linkedin.com/in/lucasafonsokremer
 
-* June/2020
-
-## Required
+Requirements
+------------
 
 * Libs:
 
@@ -23,6 +22,18 @@
 - VMWARE_VALIDATE_CERTS (true or false)
 ```
 
-## Based on
+How to use
+----------
 
-[This AWX plugin](https://github.com/ansible-collections/vmware/blob/master/scripts/inventory/vmware_inventory.py)
+* Import this script on AWX accessing "Resources > Inventory Scripts" menu.
+
+Based on
+--------
+
+For informations about the original AWX VMware plugin:
+
+[AWX plugin](https://github.com/ansible-collections/vmware/blob/master/scripts/inventory/vmware_inventory.py)
+
+For informations about VMware variables, check this link:
+
+[INI with vars](https://github.com/ansible-collections/vmware/blob/master/scripts/inventory/vmware_inventory.ini)
