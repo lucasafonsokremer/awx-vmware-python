@@ -9,13 +9,19 @@
 ## Required
 
 * Libs:
+
+```
 - pyVmomi
+```
 
 * ENVIROMENT Variables:
+
+```
 - VMWARE_USERNAME
 - VMWARE_PASSWORD
 - VMWARE_SERVER
 - VMWARE_VALIDATE_CERTS (true or false)
+```
 
 ## Based on
 
